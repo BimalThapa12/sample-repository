@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDO list</title>
+</head>
+<style>
+   ul li span{
+    position: absolute;
+    right:740px ;
+    top: 55px;
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    color: #555;
+    border-radius: 50%;
+   }
+   ul li span:hover{
+    background: #edeef0;
+   }
+</style>
+<body>
+
+    <div class="container" style="padding: 13px;">
+        <div class="todo-app">
+          <label for="todo">Todo</label>
+          <input type="text" id="input-box" placeholder="add your text">
+          <button onclick="Addtask()">Add</button>
+          <button class="removing">remove</button>
+        </div>
+</div>
+<ul type="check-box" id="list-container" >
+   <!-- <li class="checked">Task 1</li>
+    <li>Task 2</li>
+    <li>Task 3</li>
+-->
+</ul>
+<script src="todo.js"></script>
+</body>
+</html>
