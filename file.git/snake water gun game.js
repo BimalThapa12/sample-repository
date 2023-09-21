@@ -1,0 +1,1 @@
+let a=prompt("enter S W or G")
